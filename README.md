@@ -15,13 +15,13 @@ Don't randomly add things to the folder. Otherwise you need to solve conflicts, 
 - Run the app again on your Xcode
 ## App Pages
 - Select Page
-- <img src="Instruction/SymptomSelect1.jpeg" width = "30%"><img src="Instruction/SymptomSelect2.jpeg" width = "30%"><img src="Instruction/SymptomSelect3.jpeg" width = "30%">
+- <img src="Instruction/SymptomSelect1.jpeg" width = "30%">   <img src="Instruction/SymptomSelect3.jpeg" width = "30%">   <img src="Instruction/SymptomSelect2.jpeg" width = "30%">
 - Home Page
 - <img src="Instruction/HomePage.jpeg" width = "30%">
 - UTI Self Test Page 
 - <img src="Instruction/UTIPage.jpeg" width = "30%">
 - Preview and result
-- <img src="Instruction/PreviewPage.jpeg" width = "30%"><img src="Instruction/ResultPage.jpeg" width = "30%">
+- <img src="Instruction/PreviewPage.jpeg" width = "30%">    <img src="Instruction/ResultPage.jpeg" width = "30%">
 ## Needs to be done
 - Instruction needs to be more user friendly
 - Sizing of the boxes for the bio sensors
