@@ -16,10 +16,11 @@ class WelcomeViewController: UIViewController {
     var exampleButton2 : UIButton = UIButton(frame: .zero)
     var exampleButton3 : UIButton = UIButton(frame: .zero)
     var descriptionLabel : UILabel = UILabel(frame: .zero)
+    let themeColor = UIColor(red: 21/255.0, green: 85/255.0, blue: 154/255.0, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 41/255.0, green: 183/255.0, blue: 203/255.0, alpha: 1.0)
+        view.backgroundColor = themeColor
         
         let colorList = [UIColor(red: 93/255.0, green: 49/255.0, blue: 49/255.0, alpha: 1.0),
                          UIColor(red: 222/255.0, green: 120/255.0, blue: 151/255.0, alpha: 1.0),
