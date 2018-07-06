@@ -8,7 +8,7 @@ Don't randomly add things to the folder. Otherwise you need to solve conflicts, 
 - Change the Bundle Identifier to the format: YourName.DigiStrips
 - Change the Signing to your own icloud Account
 - Image demonstration below: 
-- <img src="Instruction/Instruction.png">
+- <img src="DigiStrips Project/Instruction/Instruction.png">
 - Run the Application
 - You will fail
 - Go to your iphone's setting -> General -> Device Management -> Trust this device.
