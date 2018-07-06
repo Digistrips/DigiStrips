@@ -15,7 +15,7 @@ Don't randomly add things to the folder. Otherwise you need to solve conflicts, 
 - Run the app again on your Xcode
 ## App Pages
 - Select Page, User can click the three dots next to the symptom to expand the description for that symptom
-- <img src="Instruction/SymptomSelect1.jpeg" width = "30%">       <img src="DigiStrips Project/Instruction/SymptomSelect3.jpeg" width = "30%">       <img src="DigiStrips Project/Instruction/SymptomSelect2.jpeg" width = "30%">
+- <img src="DigiStrips Project/Instruction/SymptomSelect1.jpeg" width = "30%">       <img src="DigiStrips Project/Instruction/SymptomSelect3.jpeg" width = "30%">       <img src="DigiStrips Project/Instruction/SymptomSelect2.jpeg" width = "30%">
 - Home Page
 - <img src="DigiStrips Project/Instruction/HomePage.jpeg" width = "30%">
 - UTI Self Test Page 
