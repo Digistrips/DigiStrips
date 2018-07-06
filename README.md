@@ -6,7 +6,7 @@ Don't randomly add things to the folder. Otherwise you need to solve conflicts, 
 ## Usage
 - Clone the repository to your <strong>desktop</strong> by opening your terminal and type the following line by line:
 ```
-(Only type the thing after the Dollar $ sign. For example: # cd Desktop -> Only type 'cd Desktop' to the terminal)
+(Only type the thing after the Dollar $ sign. For example: $ cd Desktop -> Only type 'cd Desktop' to the terminal)
 If you already have the repository on your desktop: 
 $ cd Desktop/DigiStrips
 $ git pull
