@@ -1,11 +1,23 @@
 ## DigiStrips
-DigiStrips App Repo
+1. DigiStrips App Repo
+2. Another app made for collecting color data (In RGB format)
 ## Warning
 Don't randomly add things to the folder. Otherwise you need to solve conflicts, or reClone the repository to renew the repo
 ## Usage
-- Clone the repository
+- Clone the repository to your <strong>desktop</strong> by opening your terminal and type the following line by line:
+'''
+If you already have the repository on your desktop: 
+cd Desktop/DigiStrips
+git pull
+
+If you don't have the repository on your desktop:
+Go to app store and download XCode
+Open your terminal
+cd Desktop
+git clone https://github.com/ZhouJoseph/DigiStrips.git
+'''
 - Open the XCodeProject File
-- Change the Bundle Identifier to the format: YourName.DigiStrips
+- Change the Bundle Identifier to the format: YourName.DigiStrips OR YourName.DataApp OR Whatever that makes sense to you.
 - Change the Signing to your own icloud Account
 - Image demonstration below: 
 - <img src="DigiStrips Project/Instruction/Instruction.png">
