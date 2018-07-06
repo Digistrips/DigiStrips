@@ -68,8 +68,6 @@ class UTIViewController: UIViewController,AVCaptureVideoDataOutputSampleBufferDe
     
     
     
-    
-    
     @objc func pictureTakeButtonPressed(_ sender: UIButton){
         print("Implement")
         image = UIImage(pixelBuffer: pixelBuffer)!

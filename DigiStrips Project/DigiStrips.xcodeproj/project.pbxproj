@@ -23,7 +23,6 @@
 		61F2A9BA20E2F1C600327723 /* UTIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2A9B920E2F1C600327723 /* UTIViewController.swift */; };
 		61F2A9BC20E2F1E000327723 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2A9BB20E2F1E000327723 /* PreviewViewController.swift */; };
 		61F2A9C020E2F69600327723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F2A9BF20E2F69600327723 /* Main.storyboard */; };
-		61F2A9C220E6EDD300327723 /* CopyOfUTIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2A9C120E6EDD300327723 /* CopyOfUTIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		61F2A9B920E2F1C600327723 /* UTIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTIViewController.swift; sourceTree = "<group>"; };
 		61F2A9BB20E2F1E000327723 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		61F2A9BF20E2F69600327723 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		61F2A9C120E6EDD300327723 /* CopyOfUTIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyOfUTIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61A8E73120EEF102000CC0C2 /* Instruction Pages */ = {
+			isa = PBXGroup;
+			children = (
+				61A8E73320EEF120000CC0C2 /* Specific Instructions */,
+				61A8E73220EEF114000CC0C2 /* General Instuctions */,
+			);
+			path = "Instruction Pages";
+			sourceTree = "<group>";
+		};
+		61A8E73220EEF114000CC0C2 /* General Instuctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "General Instuctions";
+			sourceTree = "<group>";
+		};
+		61A8E73320EEF120000CC0C2 /* Specific Instructions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Specific Instructions";
+			sourceTree = "<group>";
+		};
 		61F2A95F20E2ED4E00327723 = {
 			isa = PBXGroup;
 			children = (
+				61A8E73120EEF102000CC0C2 /* Instruction Pages */,
 				61F2A9B620E2F15C00327723 /* 3rd Party Lib */,
 				61F2A9B520E2F12800327723 /* Different Classes */,
 				61F2A9B420E2F11200327723 /* BEMCheckBox */,
@@ -91,7 +113,6 @@
 				61F2A96B20E2ED4E00327723 /* AppDelegate.swift */,
 				61F2A98320E2EDB000327723 /* SelectViewController.swift */,
 				61F2A9B920E2F1C600327723 /* UTIViewController.swift */,
-				61F2A9C120E6EDD300327723 /* CopyOfUTIViewController.swift */,
 				61F2A9BB20E2F1E000327723 /* PreviewViewController.swift */,
 				61F2A96D20E2ED4E00327723 /* WelcomeViewController.swift */,
 				61F2A9BF20E2F69600327723 /* Main.storyboard */,
@@ -213,7 +234,6 @@
 				61F2A9B020E2F05F00327723 /* BEMAnimationManager.m in Sources */,
 				61F2A9BA20E2F1C600327723 /* UTIViewController.swift in Sources */,
 				61F2A9B820E2F19400327723 /* presetColor.swift in Sources */,
-				61F2A9C220E6EDD300327723 /* CopyOfUTIViewController.swift in Sources */,
 				61F2A96E20E2ED4E00327723 /* WelcomeViewController.swift in Sources */,
 				61F2A98420E2EDB100327723 /* WrapTableViews.swift in Sources */,
 				61F2A9B120E2F05F00327723 /* BEMPathManager.m in Sources */,
@@ -354,7 +374,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KaixuanZhou.DigiStrips;
+				PRODUCT_BUNDLE_IDENTIFIER = KaixuanZ.DigiStrips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigiStrips/DigiStrips-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,7 +395,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KaixuanZhou.DigiStrips;
+				PRODUCT_BUNDLE_IDENTIFIER = KaixuanZ.DigiStrips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DigiStrips/DigiStrips-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
