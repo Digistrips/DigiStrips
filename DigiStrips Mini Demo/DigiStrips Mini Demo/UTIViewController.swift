@@ -382,7 +382,7 @@ class UTIViewController: UIViewController,AVCaptureVideoDataOutputSampleBufferDe
             if(result){
                 let alert = UIAlertController(title: "UTI Detected", message: "Our result shows that you have UTI", preferredStyle: .alert)
                 let getPrescribed = UIAlertAction(title: "Get prescribed", style: .default) { (UIAlertAction) in
-//                    self.present(PrescribedViewController(),animated: true,completion: nil)
+                    self.present(PrescribedViewController(),animated: true,completion: nil)
                 }
                 let retestAction = UIAlertAction(title: "Retest", style: .default) { (UIAlertAction) in
                     print("Retest")

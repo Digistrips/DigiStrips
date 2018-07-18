@@ -16,6 +16,7 @@
 		61B2DCC520FD8BE3008D15DD /* PresetColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2DCC420FD8BE3008D15DD /* PresetColors.swift */; };
 		61B2DCC920FD8C15008D15DD /* ZImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2DCC620FD8C14008D15DD /* ZImageCropper.swift */; };
 		61B2DCCA20FD8C15008D15DD /* PickColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2DCC820FD8C15008D15DD /* PickColor.swift */; };
+		61B2DCCC20FECD1C008D15DD /* PrescribedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2DCCB20FECD1C008D15DD /* PrescribedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		61B2DCC620FD8C14008D15DD /* ZImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZImageCropper.swift; sourceTree = "<group>"; };
 		61B2DCC720FD8C14008D15DD /* PickColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickColor.h; sourceTree = "<group>"; };
 		61B2DCC820FD8C15008D15DD /* PickColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickColor.swift; sourceTree = "<group>"; };
+		61B2DCCB20FECD1C008D15DD /* PrescribedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescribedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				61B2DCB220FD8A88008D15DD /* ViewController.swift */,
 				61B2DCC220FD8B5E008D15DD /* UTIViewController.swift */,
 				61B2DCC420FD8BE3008D15DD /* PresetColors.swift */,
+				61B2DCCB20FECD1C008D15DD /* PrescribedViewController.swift */,
 				61B2DCB420FD8A88008D15DD /* Main.storyboard */,
 				61B2DCB720FD8A8A008D15DD /* Assets.xcassets */,
 				61B2DCC620FD8C14008D15DD /* ZImageCropper.swift */,
@@ -154,6 +157,7 @@
 				61B2DCC320FD8B5E008D15DD /* UTIViewController.swift in Sources */,
 				61B2DCB320FD8A88008D15DD /* ViewController.swift in Sources */,
 				61B2DCC520FD8BE3008D15DD /* PresetColors.swift in Sources */,
+				61B2DCCC20FECD1C008D15DD /* PrescribedViewController.swift in Sources */,
 				61B2DCB120FD8A88008D15DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
